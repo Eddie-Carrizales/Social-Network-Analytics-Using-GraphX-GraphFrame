@@ -1,0 +1,63 @@
+Bitcon Alpha Social Network
+
+a. Find the top 5 nodes with the highest outdegree and find the count of the number of outgoing edges in each
+
++---+---------+
+| id|outDegree|
++---+---------+
+|  1|      490|
+|  8|      259|
+|  3|      243|
+|  4|      215|
+|  7|      212|
++---+---------+
+
+b. Find the top 5 nodes with the highest indegree and find the count of the number of incoming edges in each
+
++---+--------+
+| id|inDegree|
++---+--------+
+|  1|     398|
+|  3|     251|
+|  2|     205|
+| 11|     203|
+|  4|     201|
++---+--------+
+
+c. Run the connected components algorithm on it and find the top 5 components with the largest number of nodes.
+
++---+------------------+
+| id|          pagerank|
++---+------------------+
+|  1|  64.0285169308339|
+|  3|33.939965394258394|
+|  4|30.478870193560947|
+|  2|25.205056808837032|
+|177| 25.12373691609342|
++---+------------------+
+
+d. Run the connected components algorithm on it and find the top 5 components with the largest number of nodes.
+
++---------+-----+
+|component|count|
++---------+-----+
+|        1| 3775|
+|     3228|    2|
+|     1389|    2|
+|     5837|    2|
+|     1870|    2|
++---------+-----+
+
+
+e. Run the triangle counts algorithm on each of the vertices and output the top 5 vertices with the largest triangle count. 
+In case of ties, you can randomly select the top 5 vertices.
+
++-----+---+
+|count| id|
++-----+---+
+| 1815| 11|
+| 1628|  2|
+| 1414|177|
+| 1336|  3|
+| 1181|  7|
++-----+---+
